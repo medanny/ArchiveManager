@@ -1,0 +1,44 @@
+body{
+	font-family: Century Gothic, sans-serif;
+	text-align:center;
+	background:#F00;
+	color:#65665;
+}
+
+#form{
+	background:url('/img/fondo_formulario.jpg');
+	border:2px solid #F4F4F4;
+	margin:0px auto 0;
+	padding:30px 0 50px 0px;
+	width:440px;
+	-moz-box-shadow:0 0 20px #C4C4C4;
+	-webkit-box-shadow:0 0 20px #C4C4C4;
+	box-shadow:0 0 20px #C4C4C4;
+}
+
+[required]{
+	border-color: gray;
+	box-shadow: 0px 0px 0.5px gray;
+}
+
+.texto{
+	font-size: 40px;
+	text-shadow: 5px 5px 5px #cecece;
+}
+
+@font-face{
+	font-family: fuentesaul;
+	src: url(ITCEDSCR.TTF);
+}
+
+#saul{
+	font-family: fuentesaul;
+	font-size: 75px;
+	text-shadow: 10px 10px 10px #cecece;
+}
+img:hover{
+	-moz-box-shadow:0 0 10px blue;
+	-webkit-box-shadow:0 0 10px blue;
+	box-shadow:0 0 10px blue;
+	border-radius: 10px 10px 10px 10px ;
+}

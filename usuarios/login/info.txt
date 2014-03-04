@@ -1,0 +1,2 @@
+La base de datos se debe llamar usuario
+luego se monta el script usuario.sql
