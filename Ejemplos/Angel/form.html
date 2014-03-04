@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>    
+<!-- El encabezado !DOCTYPE html especifica que se trata de un documento HTML5 -->
+<html>
+ <head>
+  <link type="text/css" rel="stylesheet" href="listo.css">
+  
+   <!-- La linea de arriba es para importar estilos CSS a nuestro formulario -->
+  <title>Formulario de contacto</title>
+ </head>
+ 
+ <body>
+ 
+  <section class="formulario">
+    <form action="contacto.php" method="post">
+ <label for="nombre">Nombre</label>
+ <input id="nombre" type="text" name="nombre" placeholder="Nombre" required="" />
+ <label for="nombre">Apellido</label>
+ <input id="apellido" type="text" name="apellido" placeholder="Apellido" required="" />
+ <label for="nombre">Password</label>
+ <input id="password" type="text" name="password" placeholder="Password" required="" />
+ <label for="nombre">Departamento</label>
+ <input id="departamento" type="text" name="departamento" placeholder="Departamento" required="" />
+ 
+ <!--label for="email">:</label>
+ <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+ <label for="mensaje">Mensaje:</label>
+ <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+ <input id="submit" type="submit" name="submit" value="Enviar" /-->
+  <input id="submit" type="submit" name="submit" value="Crear usuario" />
+  <input id="submit" type="submit" name="submit" value="Modificar" />
+  <input id="submit" type="submit" name="submit" value="Borrar" />
+ </form>
+
+  </section>
+ </body>
+</html>
