@@ -1,0 +1,25 @@
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+	line-height: 16px;
+}
+form {
+	line-height: 30px;
+}
+form label {
+	font-weight: bold;
+	width: 100px;
+	float: left;
+}
+form input {
+	float: left;
+	width: 180px;
+	padding: 2px 4px;
+	color: #666;	
+}
+.confirm {
+	color: #036;
+	font-style: italic;
+}
