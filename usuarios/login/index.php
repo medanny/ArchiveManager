@@ -7,7 +7,7 @@ $valido=true;
          //datos de acceso
          $host="localhost";
          $usuario="root";
-         $contra="yamahar1600";
+         $contra="";
          $db="usuario";
          
          //establecer la conexion
@@ -45,7 +45,7 @@ $valido=true;
 
 <body>
     <p class="texto">Sistema de Logueo<br>
-    ‘Joel Montijo’</p>
+    ï¿½Joel Montijoï¿½</p>
 
     <div id="form">
         <p>Ingresa los datos correspondientes</p>
@@ -54,7 +54,7 @@ $valido=true;
         "post">
             <p>Usuario:</p><input name="usuario" type="text"><br>
 
-            <p>Contraseña:</p><input name="contra" type="password"><br>
+            <p>Contraseï¿½a:</p><input name="contra" type="password"><br>
             <input name="entrar" type="submit" value="ENTRAR">
             <?php if ($valido==false) {
                 echo '<p>Datos incorrectos <br/><a href="index.php">Intente de nuevo</a></p>';
