@@ -1,0 +1,1 @@
+<p><a href="insertUser.php">Insertar Usuario</a> | <a href="log.php">Log In</a> | <a href="uploadsample.php">Subir Archivo </a>| <a href="index.php">Ver Archivos</a></p>
