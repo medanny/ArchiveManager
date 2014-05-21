@@ -8,7 +8,7 @@
 
 // incluir archivo con todas las variables necesarias
 
-include("database.constants.php");
+include("constants.php");
       
 class MySQLDB//Inicio de clase
 {
@@ -43,14 +43,6 @@ class MySQLDB//Inicio de clase
    function selectField($table,$field,$id){
     global $database;
     //echo $query;
-    $q=("SELECT * FROM `".$table."` WHERE `".$field."` = '".$id."'");
-    echo $q;
-    $result = mysql_query($q, $this->connection);
-    return $result;
-   }
-   function selectFieldasArray($table,$field,$id){
-    global $database;
-    //echo $query;
     $q=("SELECT * FROM".$table." WHERE ".$field." = '".$id."'");
     $result = mysql_query($q, $this->connection);
     $dbarray = mysql_fetch_array($result);
@@ -77,12 +69,18 @@ class MySQLDB//Inicio de clase
    function insertValues($table,$values){
 
     //"INSERT INTO ".TBL_USERS." VALUES ('$username', '$password', '0', $ulevel, '$email', $time)"
-      $q = "INSERT INTO `".$table."` VALUES".$values.";";
-     // echo $q;
+      $q = "INSERT INTO".$table."VALUES".$values."";
       return mysql_query($q, $this->connection);
    }
 
 
+
+   }
+
+
+
+
+   
 
 };
 
